@@ -7,7 +7,8 @@ metadata:
 spec:
   allow: 
     - protocol: tcp
-      ports: 
+      ports:
+      - "80" 
       - "8080"
       - "433"
       - "22"      
