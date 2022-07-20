@@ -1,0 +1,7 @@
+apiVersion: charts.example.com/v1alpha1
+kind: AbNetwork
+metadata:
+  name: op-helm-test-network
+spec:  
+  subnetwork:    
+    zone: europe-west1-b    
